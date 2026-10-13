@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio Graces Digital — projetos de publicidade, design, conteúdo e digital.">
+    <title>Portfólio | Graces Digital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="portifolio-style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Graces Digital">
+        <img src="assets/1.png" alt="Graces Digital" class="brand-logo">
+    </a>
+
+    <nav class="nav" aria-label="Menu principal">
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#servicos">Serviços</a>
+        <a href="index.html#processo">Processo</a>
+        <a href="portfolio.html" class="active">Portfólio</a>
+        <a href="index.html#contato">Contato</a>
+    </nav>
+
+    <a href="index.html#contato" class="header-cta">Vamos criar <span>↗</span></a>
+    <button class="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+</header>
+
+<main>
+    <section class="hero">
+        <p class="eyebrow">NOSSO TRABALHO</p>
+        <h1>Ideias que <span>ganharam forma.</span></h1>
+        <p class="hero-description">
+            Projetos criados para transformar ideias em marcas, conteúdos
+            e experiências digitais.
+        </p>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="filters" aria-label="Filtrar projetos">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="design">Design &amp; Artes</button>
+            <button class="filter-btn" data-filter="social">Social Media</button>
+            <button class="filter-btn" data-filter="copy">Copywriting &amp; Redação</button>
+            <button class="filter-btn" data-filter="video">Edição de Vídeo</button>
+            <button class="filter-btn" data-filter="estrategia">Criação &amp; Estratégia</button>
+            <button class="filter-btn" data-filter="web">Web &amp; Digital</button>
+        </div>
+
+       
+        <div class="projects-grid" id="projectsGrid">
+
+            <article class="project-card wide" data-project="exemplo1" data-categories="design,social">
+                <button class="project-open" type="button">
+                    <div class="project-image">
+                        <img src="assets/PortifolioMarinaT/CarolBiazinCapa.jpeg" alt="Capa do Exemplo 1">
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-service">DESIGN &amp; ARTES</span>
+                        <h2>Carol Biazin co create</h2>
+                        <p>Campanha Publicitária.</p>
+                    </div>
+                </button>
+            </article>
+
+
+            <article class="project-card normal" data-project="exemplo2" data-categories="web">
+                <button class="project-open" type="button">
+                    <div class="project-image">
+                        <img src="assets/portfolio/Capa padrão Port" alt="Capa do Exemplo 2">
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-service">WEB &amp; DIGITAL</span>
+                        <h2>Modelo 01</h2>
+                        <p>Portfólio Profissional.</p>
+                    </div>
+                </button>
+            </article>
+
+            <article class="project-card normal" data-project="exemplo3" data-categories="design,social">
+                <button class="project-open" type="button">
+                    <div class="project-image">
+                        <img src="assets/PortifolioMarinaT/NotRessaca.jpeg" alt="NotRessaca">
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-service">DESIGN &amp; ARTES</span>
+                        <h2>Not Ressaca</h2>
+                        <p>Campanha Publicitária.</p>
+                    </div>
+                </button>
+            </article>
+
+        
+            <article class="project-card wide" data-project="exemplo4" data-categories="design,social">
+                <button class="project-open" type="button">
+                    <div class="project-image">
+                        <img src="assets/PortifolioMarinaT/InstitutoCarameloCapa.jpeg" alt="Instituto Caramelo">
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-service">DESIGN &amp; ARTES</span>
+                        <h2>Instituto Caramelo</h2>
+                        <p>Campanha Publicitária.</p>
+                    </div>
+                </button>
+            </article>
+
+            <article class="project-card wide" data-project="exemplo5" data-categories="social,video">
+                <button class="project-open" type="button">
+                    <div class="project-image">
+                        <img src="assets/portfolio/exemplo-5/capa-5.svg" alt="Capa do Exemplo 5">
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-service">SOCIAL MEDIA</span>
+                        <h2>Exemplo 5</h2>
+                        <p>Breve descrição do projeto.</p>
+                    </div>
+                </button>
+            </article>
+
+            <article class="project-card normal" data-project="exemplo6" data-categories="design,social">
+                <button class="project-open" type="button">
+                    <div class="project-image">
+                        <img src="assets/portfolio/001 Liga Campista/Logo/fundo transparente.png" alt="Liga Campista">
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-service">DESIGN &amp; ARTES</span>
+                        <h2>Liga Campista</h2>
+                        <p>Logo.</p>
+                    </div>
+                </button>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<!-- WHATSAPP -->
+<div class="whatsapp-widget" id="whatsappWidget">
+    <div class="whatsapp-message" id="whatsappMessage">
+        <button class="whatsapp-message-close" id="closeWhatsappMessage" aria-label="Fechar mensagem">×</button>
+        <strong>Gostou dos nossos projetos?</strong>
+        <p>Chame a gente, vamos criar o seu.</p>
+    </div>
+    <a class="whatsapp-float" href="https://wa.me/5511916788446?text=Ol%C3%A1!%20Gostei%20dos%20projetos%20da%20Graces%20Digital%20e%20quero%20criar%20um%20projeto." target="_blank" rel="noopener" aria-label="Conversar com a Graces Digital pelo WhatsApp">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M27.1 15.3A11.3 11.3 0 0 1 10.5 25.1L5 27l1.8-5.3a11.3 11.3 0 1 1 20.3-6.4Z" fill="white"/>
+            <path d="M21.9 18.1c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.2-.4-2.3-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.7l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.5s1 2.9 1.1 3.1c.1.2 2 3.1 4.9 4.3.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z" fill="#2bd45c"/>
+        </svg>
+    </a>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-window" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalClose" type="button" aria-label="Fechar projeto">×</button>
+
+        <div class="modal-topline" id="modalCategory"></div>
+        <h2 id="modalTitle">Projeto</h2>
+        <p id="modalDescription"></p>
+        <div id="modalContent"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-brand">
+    </div>
+
+    <div class="footer-center">
+        <p>PUBLICIDADE · DESIGN · CRIAÇÃO · DIGITAL</p>
+
+        <p class="footer-created">
+            Site criado por
+            <a href="https://gracesdigital.com" target="_blank" rel="noopener">
+                Graces Digital
+            </a>
+        </p>
+
+        <p class="footer-copy">
+            © 2026 Graces Digital
+        </p>
+    </div>
+</footer>
+
+<script src="portifolio-script.js"></script>
+</body>
+</html>
