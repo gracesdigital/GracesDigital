@@ -91,8 +91,8 @@ const projects = {
             {
                 title: "Conteúdo",
                 images: [
-                    "assets/portfolio/exemplo-5/imagem-01.svg",
-                    "assets/portfolio/exemplo-5/imagem-02.svg"
+                    "assets/portfolio/Capa Carregando.jpeg",
+                    "assets/portfolio/Capa Carregando.jpeg"
                 ]
             }
         ]
