@@ -84,16 +84,22 @@ const projects = {
     },
 
     exemplo5: {
-        title: "Exemplo 5",
-        category: "Social Media · Edição de Vídeo",
-        description: "Breve descrição do projeto.",
+        title: "Eduarda Fragoso Arquitetura",
+        category: "Web & Digital",
+        description: "Modelo de site de arquitetura.",
         sections: [
             {
                 title: "Conteúdo",
                 images: [
-                    "assets/portfolio/Capa Carregando.jpeg",
-                    "assets/portfolio/Capa Carregando.jpeg"
+                    "assets/portfolio/exemplo-7/1.jpeg",
+                    "assets/portfolio/exemplo-7/2.jpeg",
+                    "assets/portfolio/exemplo-7/3.jpeg"
                 ]
+            },
+            {
+                title: "Site",
+                link: "https://gracesdigital.github.io/DudaFragosoArquitetura01/",
+                linkText: "Vistar Site ↗"
             }
         ]
     },
