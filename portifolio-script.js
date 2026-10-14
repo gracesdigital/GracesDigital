@@ -26,7 +26,7 @@ const projects = {
     exemplo2: {
         title: "Modelo 01",
         category: "Web & Digital",
-        description: "Breve descrição do projeto.",
+        description: "Modelo de Portifólio 01.",
         sections: [
             {
                 title: "Projeto",
@@ -114,7 +114,31 @@ const projects = {
                 ]
             }
         ]
-    }
+    },
+
+    exemplo7: {
+        title: "Modelo 01",
+        category: "Web & Digital",
+        description: "Modelo de Portifólio 01.",
+        sections: [
+            {
+                title: "Projeto",
+                images: [
+                    "assets/portfolio/PortModelo02/1.jpeg",
+                    "assets/portfolio/PortModelo02/2.jpeg",
+                    "assets/portfolio/PortModelo02/4.jpeg",
+                    "assets/portfolio/PortModelo02/3.jpeg",
+                    "assets/portfolio/PortModelo02/5.jpeg"
+                ]
+            },
+            {
+                title: "Portifólio",
+                link: "https://gracesdigital.github.io/PortifolioModelo02/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
 };
 
 /* =========================================================
@@ -274,9 +298,13 @@ document.querySelectorAll(".nav a").forEach(link => {
    WHATSAPP
 ========================================================= */
 
-const whatsappMessage = document.getElementById("whatsappMessage");
-const whatsappClose = document.getElementById("whatsappClose");
 
-whatsappClose.addEventListener("click", () => {
-    whatsappMessage.style.display = "none";
-});
+const whatsappMessage = document.getElementById("whatsappMessage");
+const whatsappClose = document.getElementById("closeWhatsappMessage");
+
+if (whatsappMessage && whatsappClose) {
+    whatsappClose.addEventListener("click", () => {
+        whatsappMessage.classList.add("hidden");
+    });
+}
+
