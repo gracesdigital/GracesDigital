@@ -197,6 +197,11 @@ const descriptions = {
 
             <div class="service-list-item">
                 <span>➣</span>
+                <p>Cards de apresentações digitais</p>
+            </div>
+
+            <div class="service-list-item">
+                <span>➣</span>
                 <p>Hotsites e páginas de campanha</p>
             </div>
 
