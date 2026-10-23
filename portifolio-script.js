@@ -3,7 +3,7 @@
 ========================================================= */
 
 const projects = {
-    exemplo1: {
+    MarinaTPort01: {
         title: "Carol Biazin co create",
         category: "Design & Artes · Social Media",
         description: "Campanha Publicitária.",
@@ -31,10 +31,7 @@ const projects = {
             {
                 title: "Projeto",
                 images: [
-                    "assets/portfolio/PortModelo01/1.jpeg",
-                    "assets/portfolio/PortModelo01/4.jpeg",
-                    "assets/portfolio/PortModelo01/2.jpeg",
-                    "assets/portfolio/PortModelo01/2.jpeg"
+                    "assets/portfolio/PortModelo01/1.jpeg"
                 ]
             },
             {
@@ -84,21 +81,19 @@ const projects = {
     },
 
     exemplo5: {
-        title: "Eduarda Fragoso Arquitetura",
+        title: "Graces Digital",
         category: "Web & Digital",
-        description: "Modelo de site de arquitetura.",
+        description: "Modelo de site personal.",
         sections: [
             {
                 title: "Conteúdo",
                 images: [
-                    "assets/portfolio/exemplo-7/1.jpeg",
-                    "assets/portfolio/exemplo-7/2.jpeg",
-                    "assets/portfolio/exemplo-7/3.jpeg"
+                    "assets/portfolio/SiteModelo01/1.jpeg"
                 ]
             },
             {
                 title: "Site",
-                link: "https://gracesdigital.github.io/DudaFragosoArquitetura01/",
+                link: "https://gracesdigital.github.io/SiteModelo01/",
                 linkText: "Vistar Site ↗"
             }
         ]
@@ -115,8 +110,7 @@ const projects = {
                     "assets/portfolio/001 Liga Campista/Logo/1.jpeg",
                     "assets/portfolio/001 Liga Campista/Logo/3.jpeg",
                     "assets/portfolio/001 Liga Campista/Logo/fundo transparente.png",
-                    "assets/portfolio/001 Liga Campista/Logo/2.jpeg",
-                    "assets/portfolio/001 Liga Campista/Logo/paleta.jpeg",
+                    "assets/portfolio/001 Liga Campista/Logo/2.jpeg"
                 ]
             }
         ]
@@ -130,11 +124,7 @@ const projects = {
             {
                 title: "Projeto",
                 images: [
-                    "assets/portfolio/PortModelo02/1.jpeg",
-                    "assets/portfolio/PortModelo02/2.jpeg",
-                    "assets/portfolio/PortModelo02/4.jpeg",
-                    "assets/portfolio/PortModelo02/3.jpeg",
-                    "assets/portfolio/PortModelo02/5.jpeg"
+                    "assets/portfolio/PortModelo02/1.jpeg"
                 ]
             },
             {
@@ -144,6 +134,199 @@ const projects = {
             }
         ]
     },
+
+    card01: {
+        title: "Modelo 01",
+        category: "Web & Digital",
+        description: "Card de Apresentação 01.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/1.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao01/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    card02: {
+        title: "Modelo 02",
+        category: "Web & Digital",
+        description: "Card de Apresentação 03.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/2.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao02/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    GabiMedve: {
+        title: "Artes para as redes Sociais",
+        category: "Design & Artes · Social Media",
+        description: "Icon e Header",
+        sections: [
+            {
+                title: "Fotos",
+                images: [
+                    "assets/PortifolioMarinaT/GM1.jpeg",
+                    "assets/PortifolioMarinaT/GM2.jpeg",
+                    "assets/PortifolioMarinaT/GM3.jpeg",
+                    "assets/PortifolioMarinaT/GM4.jpeg"
+                ]
+            }
+        ]
+    },
+
+    card03: {
+        title: "Modelo 03",
+        category: "Web & Digital",
+        description: "Card de Apresentação 03.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/3.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao03/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    card04: {
+        title: "Modelo 04",
+        category: "Web & Digital",
+        description: "Card de Apresentação 04.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/4.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao04/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    MarinaTPort03: {
+        title: "Carol Biazin co create",
+        category: "Design & Artes · Social Media",
+        description: "Campanha Publicitária.",
+        sections: [
+            {
+                title: "Campanha",
+                images: [
+                    "assets/PortifolioMarinaT/RB2.jpeg",
+                    "assets/PortifolioMarinaT/RB3.jpeg"
+                ]
+            },
+            {
+                title: "Apresentação da campanha",
+                pdf: "",
+                pdfButton: "Abrir PDF em nova aba ↗"
+            }
+        ]
+    },
+
+    card05: {
+        title: "Modelo 05",
+        category: "Web & Digital",
+        description: "Card de Apresentação 05.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/5.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao05/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+
+    card06: {
+        title: "Modelo 06",
+        category: "Web & Digital",
+        description: "Card de Apresentação 06.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/6.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao06/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+
+    card07: {
+        title: "Modelo 07",
+        category: "Web & Digital",
+        description: "Card de Apresentação 07.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/7.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao07/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+
+    card08: {
+        title: "Modelo 08",
+        category: "Web & Digital",
+        description: "Card de Apresentação 08.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/CardDeApresentacao/8.jpeg"
+                ]
+            },
+            {
+                title: "Card de Apresentação",
+                link: "https://gracesdigital.github.io/CardDeApresentacao08/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+    
 
 };
 
