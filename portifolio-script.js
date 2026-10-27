@@ -81,7 +81,7 @@ const projects = {
     },
 
     exemplo5: {
-        title: "Graces Digital",
+        title: "Graces personal",
         category: "Web & Digital",
         description: "Modelo de site personal.",
         sections: [
@@ -157,7 +157,7 @@ const projects = {
     card02: {
         title: "Modelo 02",
         category: "Web & Digital",
-        description: "Card de Apresentação 03.",
+        description: "Card de Apresentação 02.",
         sections: [
             {
                 title: "Modelo",
@@ -168,6 +168,19 @@ const projects = {
             {
                 title: "Card de Apresentação",
                 link: "https://gracesdigital.github.io/CardDeApresentacao02/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    cardapio01: {
+        title: "Modelo 01",
+        category: "Web & Digital",
+        description: "Cardápio 01.",
+        sections: [
+            {
+                title: "Cardápio Digital",
+                link: "https://gracesdigital.github.io/Cardapio01/",
                 linkText: "Ver Modelo completo ↗"
             }
         ]
@@ -186,6 +199,19 @@ const projects = {
                     "assets/PortifolioMarinaT/GM3.jpeg",
                     "assets/PortifolioMarinaT/GM4.jpeg"
                 ]
+            }
+        ]
+    },
+
+    cardapio02: {
+        title: "Modelo 02",
+        category: "Web & Digital",
+        description: "Cardápio 02.",
+        sections: [
+            {
+                title: "Cardápio Digital",
+                link: "https://gracesdigital.github.io/Cardapio02/",
+                linkText: "Ver Modelo completo ↗"
             }
         ]
     },
@@ -229,7 +255,7 @@ const projects = {
     },
 
     MarinaTPort03: {
-        title: "Carol Biazin co create",
+        title: "CRed Bull",
         category: "Design & Artes · Social Media",
         description: "Campanha Publicitária.",
         sections: [
@@ -242,8 +268,21 @@ const projects = {
             },
             {
                 title: "Apresentação da campanha",
-                pdf: "",
+                pdf: "assets/PortifolioMarinaT/",
                 pdfButton: "Abrir PDF em nova aba ↗"
+            }
+        ]
+    },
+
+    cardapio03: {
+        title: "Modelo 03",
+        category: "Web & Digital",
+        description: "Cardápio 03.",
+        sections: [
+            {
+                title: "Cardápio Digital",
+                link: "https://gracesdigital.github.io/Cardapio03/",
+                linkText: "Ver Modelo completo ↗"
             }
         ]
     },
@@ -287,6 +326,18 @@ const projects = {
         ]
     },
 
+    cardapio04: {
+        title: "Modelo 04",
+        category: "Web & Digital",
+        description: "Cardápio 04.",
+        sections: [
+            {
+                title: "Cardápio Digital",
+                link: "https://gracesdigital.github.io/Cardapio04/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
 
     card07: {
         title: "Modelo 07",
@@ -322,6 +373,32 @@ const projects = {
             {
                 title: "Card de Apresentação",
                 link: "https://gracesdigital.github.io/CardDeApresentacao08/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    cardapio05: {
+        title: "Modelo 05",
+        category: "Web & Digital",
+        description: "Cardápio 05.",
+        sections: [
+            {
+                title: "Cardápio Digital",
+                link: "https://gracesdigital.github.io/Cardapio05/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    cardapio06: {
+        title: "Modelo 06",
+        category: "Web & Digital",
+        description: "Cardápio 06.",
+        sections: [
+            {
+                title: "Cardápio Digital",
+                link: "https://gracesdigital.github.io/Cardapio06/",
                 linkText: "Ver Modelo completo ↗"
             }
         ]
