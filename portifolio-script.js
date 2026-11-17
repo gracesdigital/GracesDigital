@@ -33,12 +33,12 @@ const projects = {
             },
             {
                 title: "Cardápio",
-                link: "https://gracesdigital.github.io/PortifolioModelo01/",
+                link: "https://sabroca.github.io/MassasMiletto/",
                 linkText: "Ver Modelo completo ↗"
             },
             {
                 title: "Card",
-                link: "https://gracesdigital.github.io/PortifolioModelo01/",
+                link: "https://sabroca.github.io/Cart-oMiletto/",
                 linkText: "Ver Modelo completo ↗"
             }
         ]
