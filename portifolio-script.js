@@ -1,7 +1,3 @@
-/* =========================================================
-   DADOS DOS PROJETOS
-========================================================= */
-
 const projects = {
     MarinaTPort01: {
         title: "Carol Biazin co create",
@@ -23,26 +19,101 @@ const projects = {
         ]
     },
 
-    exemplo2: {
-        title: "Modelo 01",
-        category: "Web & Digital",
-        description: "Modelo de Portifólio 01.",
+    MassasMiletto: {
+        title: "Massas Miletto",
+        category: "Design & Artes · Social Media",
+        description: "Logo, Cartão de Visitas, Cardápio Digital e Card.",
         sections: [
             {
                 title: "Projeto",
                 images: [
-                    "assets/portfolio/PortModelo01/1.jpeg"
+                    "assets/portfolio/002 Massas Miletto/logo.jpeg",
+                    "assets/portfolio/002 Massas Miletto/cartão de visitas.jpg"
                 ]
             },
             {
-                title: "Portifólio",
+                title: "Cardápio",
+                link: "https://gracesdigital.github.io/PortifolioModelo01/",
+                linkText: "Ver Modelo completo ↗"
+            },
+            {
+                title: "Card",
                 link: "https://gracesdigital.github.io/PortifolioModelo01/",
                 linkText: "Ver Modelo completo ↗"
             }
         ]
+        
     },
 
-    exemplo3: {
+    LigaCampista: {
+        title: "Liga Campista",
+        category: "Design & Artes · Social Media",
+        description: "Logo.",
+        sections: [
+            {
+                title: "Projeto",
+                images: [
+                    "assets/portfolio/001 Liga Campista/Logo/1.jpeg",
+                    "assets/portfolio/001 Liga Campista/Logo/3.jpeg",
+                    "assets/portfolio/001 Liga Campista/Logo/fundo transparente.png",
+                    "assets/portfolio/001 Liga Campista/Logo/2.jpeg"
+                ]
+            }
+        ]
+    },
+
+    GabiMedve: {
+        title: "Artes para as redes Sociais",
+        category: "Design & Artes · Social Media",
+        description: "Icon e Header",
+        sections: [
+            {
+                title: "Fotos",
+                images: [
+                    "assets/PortifolioMarinaT/GM1.jpeg",
+                    "assets/PortifolioMarinaT/GM2.jpeg",
+                    "assets/PortifolioMarinaT/GM3.jpeg",
+                    "assets/PortifolioMarinaT/GM4.jpeg"
+                ]
+            }
+        ]
+    },
+
+    Site01Modelo: {
+        title: "Graces personal",
+        category: "Web & Digital",
+        description: "Modelo de site personal.",
+        sections: [
+            {
+                title: "Conteúdo",
+                images: [
+                    "assets/portfolio/SitesModelo/01 Apresentação.jpeg"
+                ]
+            },
+            {
+                title: "Site",
+                link: "https://gracesdigital.github.io/SiteModelo01/",
+                linkText: "Vistar Site ↗"
+            }
+        ]
+    },
+
+    silveco: {
+        title: "silvê.co",
+        category: "Design & Artes · Social Media",
+        description: "Logo.",
+        sections: [
+            {
+                title: "Projeto",
+                images: [
+                    "assets/portfolio/003 silve.co/silve.co.jpeg",
+                    
+                ]
+            },
+        ]
+    },
+
+    NotRessaca: {
         title: "Not Ressaca",
         category: "Design & Artes · Social Media",
         description: "Campanha Publicitária.",
@@ -54,13 +125,10 @@ const projects = {
                     
                 ]
             },
-            {
-                
-            }
         ]
     },
 
-    exemplo4: {
+    MarinaTPort02: {
         title: "Instituto Caramelo",
         category: "Design & Artes · Social Media",
         description: "Campanha Publicitária.",
@@ -80,43 +148,7 @@ const projects = {
         ]
     },
 
-    exemplo5: {
-        title: "Graces personal",
-        category: "Web & Digital",
-        description: "Modelo de site personal.",
-        sections: [
-            {
-                title: "Conteúdo",
-                images: [
-                    "assets/portfolio/SiteModelo01/1.jpeg"
-                ]
-            },
-            {
-                title: "Site",
-                link: "https://gracesdigital.github.io/SiteModelo01/",
-                linkText: "Vistar Site ↗"
-            }
-        ]
-    },
-
-    exemplo6: {
-        title: "Liga Campista",
-        category: "Design & Artes · Social Media",
-        description: "Logo.",
-        sections: [
-            {
-                title: "Projeto",
-                images: [
-                    "assets/portfolio/001 Liga Campista/Logo/1.jpeg",
-                    "assets/portfolio/001 Liga Campista/Logo/3.jpeg",
-                    "assets/portfolio/001 Liga Campista/Logo/fundo transparente.png",
-                    "assets/portfolio/001 Liga Campista/Logo/2.jpeg"
-                ]
-            }
-        ]
-    },
-
-    exemplo7: {
+    Port01: {
         title: "Modelo 01",
         category: "Web & Digital",
         description: "Modelo de Portifólio 01.",
@@ -124,7 +156,26 @@ const projects = {
             {
                 title: "Projeto",
                 images: [
-                    "assets/portfolio/PortModelo02/1.jpeg"
+                    "assets/portfolio/PortModelo/01.jpg"
+                ]
+            },
+            {
+                title: "Portifólio",
+                link: "https://gracesdigital.github.io/PortifolioModelo01/",
+                linkText: "Ver Modelo completo ↗"
+            }
+        ]
+    },
+
+    Port02: {
+        title: "Modelo 02",
+        category: "Web & Digital",
+        description: "Modelo de Portifólio 02.",
+        sections: [
+            {
+                title: "Projeto",
+                images: [
+                    "assets/portfolio/PortModelo/02.jpg"
                 ]
             },
             {
@@ -186,22 +237,6 @@ const projects = {
         ]
     },
 
-    GabiMedve: {
-        title: "Artes para as redes Sociais",
-        category: "Design & Artes · Social Media",
-        description: "Icon e Header",
-        sections: [
-            {
-                title: "Fotos",
-                images: [
-                    "assets/PortifolioMarinaT/GM1.jpeg",
-                    "assets/PortifolioMarinaT/GM2.jpeg",
-                    "assets/PortifolioMarinaT/GM3.jpeg",
-                    "assets/PortifolioMarinaT/GM4.jpeg"
-                ]
-            }
-        ]
-    },
 
     cardapio02: {
         title: "Modelo 02",
