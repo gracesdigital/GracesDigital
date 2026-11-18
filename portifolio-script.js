@@ -148,6 +148,25 @@ const projects = {
         ]
     },
 
+    Site02Modelo: {
+        title: "Beleza Graces",
+        category: "Web & Digital",
+        description: "Modelo de site salão de beleza.",
+        sections: [
+            {
+                title: "Modelo",
+                images: [
+                    "assets/portfolio/SitesModelo/02 Apresentação.jpg"
+                ]
+            },
+            {
+                title: "Site",
+                link: "https://gracesdigital.github.io/BelezaGraces/",
+                linkText: "Vistar Site ↗"
+            }
+        ]
+    },
+
     Port01: {
         title: "Modelo 01",
         category: "Web & Digital",
@@ -285,26 +304,6 @@ const projects = {
                 title: "Card de Apresentação",
                 link: "https://gracesdigital.github.io/CardDeApresentacao04/",
                 linkText: "Ver Modelo completo ↗"
-            }
-        ]
-    },
-
-    MarinaTPort03: {
-        title: "CRed Bull",
-        category: "Design & Artes · Social Media",
-        description: "Campanha Publicitária.",
-        sections: [
-            {
-                title: "Campanha",
-                images: [
-                    "assets/PortifolioMarinaT/RB2.jpeg",
-                    "assets/PortifolioMarinaT/RB3.jpeg"
-                ]
-            },
-            {
-                title: "Apresentação da campanha",
-                pdf: "assets/PortifolioMarinaT/",
-                pdfButton: "Abrir PDF em nova aba ↗"
             }
         ]
     },
